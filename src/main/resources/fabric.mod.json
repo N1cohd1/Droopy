@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "droopys_mansion",
+  "version": "${version}",
+  "name": "Droopy's Mansion",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/droopys_mansion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.hueae.droopys_mansion.client.Droopys_mansionClient"
+    ],
+    "main": [
+      "com.hueae.droopys_mansion.Droopys_mansion"
+    ]
+  },
+  "mixins": [
+    "droopys_mansion.mixins.json",
+    {
+      "config": "droopys_mansion.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
