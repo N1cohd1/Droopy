@@ -11,10 +11,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.hueae.droopys_mansion.client.Droopys_mansionClient"
+      "com.hueae.droopys_mansion.client.DroopysMansionClient"
     ],
     "main": [
-      "com.hueae.droopys_mansion.Droopys_mansion"
+      "com.hueae.droopys_mansion.DroopysMansion"
     ]
   },
   "mixins": [
