@@ -1,5 +1,6 @@
 package com.hueae.droopys_mansion;
 
+import com.hueae.droopys_mansion.block.ModBlocks;
 import com.hueae.droopys_mansion.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class DroopysMansion implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }
