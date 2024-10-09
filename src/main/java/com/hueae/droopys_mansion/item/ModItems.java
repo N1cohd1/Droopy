@@ -20,10 +20,6 @@ public class ModItems {
     }
 
 
-
-
-
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.tryParse(DroopysMansion.MOD_ID, name), item);
     }
