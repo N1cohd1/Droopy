@@ -21,7 +21,8 @@ public class CustomTestBlock extends Block {
 
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
-        world.playSound(player, pos, SoundEvents.BLOCK_COPPER_TRAPDOOR_OPEN, SoundCategory.BLOCKS, 100f, 1f);
+        player.addExperience(10);
+        world.playSound(player, pos, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.PLAYERS, 100f, 1f);
         return ActionResult.SUCCESS;
     }
 
