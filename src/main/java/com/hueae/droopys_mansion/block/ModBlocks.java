@@ -2,6 +2,7 @@ package com.hueae.droopys_mansion.block;
 
 import com.hueae.droopys_mansion.DroopysMansion;
 import com.hueae.droopys_mansion.block.custom.CustomTestBlock;
+import com.hueae.droopys_mansion.block.custom.RubyLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -28,6 +29,9 @@ public class ModBlocks {
     //Joa, der komische Testblock
     public static final Block CUSTOM_TEST_BLOCK = registerBlock("custom_test_block",
             new CustomTestBlock(AbstractBlock.Settings.create().strength(1).slipperiness(0.9f).requiresTool()));
+
+    public static final Block RUBY_LAMP = registerBlock("ruby_lamp",
+            new RubyLampBlock(AbstractBlock.Settings.create().strength(0.8f).requiresTool().luminance(state -> state.get(RubyLampBlock.CLICKED) ? 15:0)));
 
     //Helper Method for Blocks
     private static Block registerBlock(String name, Block block) {

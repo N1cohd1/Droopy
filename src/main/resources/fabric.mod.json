@@ -12,6 +12,9 @@
     "client": [
       "com.hueae.droopys_mansion.client.DroopysMansionClient"
     ],
+    "fabric-datagen": [
+      "com.hueae.droopys_mansion.util.DroopysMansionDataGenerator"
+    ],
     "main": [
       "com.hueae.droopys_mansion.DroopysMansion"
     ]
