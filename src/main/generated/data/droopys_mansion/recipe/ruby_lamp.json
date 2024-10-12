@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:redstone_torch"
+    },
+    "R": {
+      "item": "droopys_mansion:ruby"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RMR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "droopys_mansion:ruby_lamp"
+  }
+}

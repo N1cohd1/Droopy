@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "droopys_mansion:block/ruby_lamp"
+  }
+}

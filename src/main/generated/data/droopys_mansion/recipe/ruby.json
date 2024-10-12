@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "droopys_mansion:ruby_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "droopys_mansion:ruby"
+  }
+}

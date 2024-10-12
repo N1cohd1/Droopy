@@ -1,0 +1,4 @@
+// 1.21.1	2024-10-12T20:50:58.0090542	Droopy's Mansion/Tags for minecraft:block
+4a8e99a3bfdebfc82db53274034840958a59753d data\minecraft\tags\block\mineable\pickaxe.json
+76c3fa0caa9fd1cdcfee4f58f4c65ce27469c983 data\minecraft\tags\block\needs_diamond_tool.json
+362eea667d21bc479df7fdf7857c1876d521f958 data\minecraft\tags\block\needs_iron_tool.json

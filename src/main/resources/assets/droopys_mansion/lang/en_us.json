@@ -3,5 +3,7 @@
 
   "block.droopys_mansion.pale_planks": "Pale Planks",
   "block.droopys_mansion.custom_test_block": "Custom Test Block",
-  "block.droopys_mansion.ruby_lamp": "Ruby Lamp"
+  "block.droopys_mansion.ruby_lamp": "Ruby Lamp",
+  "block.droopys_mansion.ruby_ore": "Ruby Ore",
+  "block.droopys_mansion.ruby_block": "Ruby Block"
 }
