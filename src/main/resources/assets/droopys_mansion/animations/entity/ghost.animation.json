@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ghost.idle": {
+			"loop": true,
+			"animation_length": 7.1667,
+			"start_delay": "20",
+			"bones": {
+				"arms": {
+					"rotation": {
+						"vector": [0, 0, "60+math.sin(math.pi*query.anim_time*8)*30"]
+					}
+				}
+			}
+		}
+	}
+}

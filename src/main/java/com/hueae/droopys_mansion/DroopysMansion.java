@@ -7,7 +7,6 @@ import com.hueae.droopys_mansion.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.minecraft.entity.attribute.EntityAttributes;
 import org.slf4j.Logger;
 
 public class DroopysMansion implements ModInitializer {
