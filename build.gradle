@@ -30,6 +30,14 @@ repositories {
     maven {
         url "https://maven.teamresourceful.com/repository/maven-public/"
     }
+
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
 }
 
 dependencies {
@@ -40,6 +48,8 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     modApi group: "earth.terrarium.athena", name: "athena-fabric-1.21", version: "4.0.1"
+
+    modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}"
 }
 
 processResources {
