@@ -7,7 +7,6 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/droopys_mansion/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -18,11 +17,7 @@
     ]
   },
   "mixins": [
-    "droopys_mansion.mixins.json",
-    {
-      "config": "droopys_mansion.client.mixins.json",
-      "environment": "client"
-    }
+    "droopys_mansion.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
